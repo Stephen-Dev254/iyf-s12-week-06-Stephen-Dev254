@@ -1,6 +1,11 @@
 // ============================================
 // LESSON 12 — WEATHER DASHBOARD
 // ============================================
+// Loaded from config.js (compiled from .env via build-env.js)
+const BASE_DOMAIN = typeof ENV !== "undefined" ? ENV.BASE_URL : "https://openweathermap.org";
+const WEATHER_URL = `${BASE_DOMAIN}/weather`;
+const FORECAST_URL = `${BASE_DOMAIN}/forecast`;
+
 
 const BASE_URL = "https://api.openweathermap.org/data/2.5/weather";
 const MAX_RECENT = 5;

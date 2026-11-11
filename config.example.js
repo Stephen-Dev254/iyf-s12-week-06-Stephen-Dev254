@@ -1,4 +1,6 @@
-// Copy this file to config.js and paste your OpenWeatherMap key between the quotes.
-// config.js is git-ignored: it never leaves your computer. On GitHub Pages,
-// .github/workflows/deploy.yml writes it from the OPENWEATHER_API_KEY secret.
-const API_KEY = "";
+const ENV = Object.freeze({
+    API_KEY: "",
+    BASE_URL: "https://openweathermap.org",
+    DEFAULT_UNITS: "metric"
+});
+const API_KEY = ENV.API_KEY;

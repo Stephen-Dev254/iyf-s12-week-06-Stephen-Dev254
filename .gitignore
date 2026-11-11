@@ -1,13 +1,6 @@
-# API keys and configuration files
-config.js
-
-# Dependancies
 node_modules/
-
-Environment Variables
-.Env
-.env.local
-
-#system files
+.vscode/
 .DS_Store
 Thumbs.db
+.env
+config.js

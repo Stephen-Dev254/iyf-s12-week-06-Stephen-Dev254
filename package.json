@@ -1,9 +1,0 @@
-{
-  "name": "weather-dashboard",
-  "version": "1.0.0",
-  "type": "module",
-  "description": "Interactive Weather Dashboard powered by OpenWeatherMap API",
-  "scripts": {
-    "build:env": "node build-env.js"
-  }
-}
